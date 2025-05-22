@@ -1,5 +1,5 @@
-import dbConnect from '../../../lib/mongodb';
-import Usuario from '../../../models/Usuario';
+import dbConnect from '../../lib/mongodb';
+import Usuario from '../../models/Usuario';
 
 export default async function handler(req, res) {
   const { method } = req;
