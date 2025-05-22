@@ -1,6 +1,6 @@
-import dbConnect from '../../lib/mongodb';
-import Usuario from '../../models/Usuario';
-import { generateToken } from '../../lib/auth';
+import dbConnect from '../../../lib/mongodb';
+import Usuario from '../../../models/Usuario';
+import { generateToken } from '../../../lib/auth';
 import cookie from 'cookie';
 
 export default async function handler(req, res) {
