@@ -1,6 +1,6 @@
-import dbConnect from '../../lib/mongodb';
-import Agendamento from '../../models/Agendamento';
-import { protect } from '../../lib/auth';
+import dbConnect from '../../../lib/mongodb';
+import Agendamento from '../../../models/Agendamento';
+import { protect } from '../../../lib/auth';
 
 export default async function handler(req, res) {
   const { method } = req;
